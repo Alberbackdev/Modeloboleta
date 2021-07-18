@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10% 10% 5% 10%;
+}
+
+.membrete {
+  font-family: arial;
+  font-size: 12px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.frase {
+  font-style: italic;
+}
+/*
+.membrete header{
+  font-family: arial;
+  text-align: center;
+}
+*/
+.estudiante {
+  font-family: arial;
+  font-size: 13px;
+  text-align: left;
+}
+
+.estudiante th, td{
+  padding: 10px;
+}
+
+.leyenda {
+  font-family: arial;
+  font-size: 15px;
+  text-align: center;
+}
+
+table {
+  font-family: arial;
+  font-size: 13px;
+  border-collapse: collapse;
+  align-content: center;
+  width: 100%;
+  align: center;
+}
+
+table th {
+  font-style: italic;
+  border: 1px solid black;
+}
+
+
+table td {
+  border: 1px solid black;
+}
+
+#area{
+  font-size: 20px;
+}
+
+.firmas {
+  font-family: arial;
+  font-size: 15px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 1em;
+  margin: 10% 0 10% 0;
+}
+
+.firmas h4 {
+  border-top: 1px solid black;
+}
